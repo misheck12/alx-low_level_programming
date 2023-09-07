@@ -10,8 +10,8 @@
 int main(void)
 {
 	write(2,
-	      "\"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", /* Added a double quote before and */
-	      strlen("\"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")); /* Replaced 59 with strlen */
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", /* Removed a double quote before and */
+	      sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")); /* Changed strlen to sizeof */
 	return (1);
 }
 

@@ -14,4 +14,3 @@ int main(void)
 	      sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")); /* Changed strlen to sizeof */
 	return (1);
 }
-
